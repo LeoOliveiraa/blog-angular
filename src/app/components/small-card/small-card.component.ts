@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Component, Input, OnInit } from '@angular/core';
-=======
-import { Component } from '@angular/core';
->>>>>>> 039cfe6e82e0f7f33a60c416d7c7a45d23eeedf9
 
 @Component({
   selector: 'app-small-card',
@@ -11,7 +7,6 @@ import { Component } from '@angular/core';
     './small-card-responsive.component.css'
   ]
 })
-<<<<<<< HEAD
 export class SmallCardComponent implements OnInit {
 
   @Input()
@@ -26,8 +21,4 @@ export class SmallCardComponent implements OnInit {
   ngOnInit(): void {
 
   }
-=======
-export class SmallCardComponent {
-
->>>>>>> 039cfe6e82e0f7f33a60c416d7c7a45d23eeedf9
 }
